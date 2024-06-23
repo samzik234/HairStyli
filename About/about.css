@@ -7,7 +7,7 @@ body {
     padding: 0; 
     box-sizing: border-box;
     color: white;
-    background-image: url(./top-stylists-sp.jpg); /* Ensure correct image path */
+    background-color: #1a1d23;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -20,8 +20,6 @@ body {
     padding: 25px;
     margin-top: 25px;
     text-align: center;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
 }
 
 .nav2 {
@@ -32,7 +30,7 @@ body {
     justify-content: center; 
 }
 
-.nav2 ul { 
+.nav2 ul {
     margin: 0px;
     padding: 0px;
     display: flex;
@@ -77,47 +75,48 @@ a {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
 }
 
-.container {
-    display: flex;
-    justify-content: space-around; 
-    flex-wrap: wrap; 
-    margin-top: 100px;
-}
-
-.box { 
-    width: 45%; 
+.About {
+    background-image: url(./Salon-Safari.jpg); /* Ensure correct image path */
+    background-size: cover;
+    background-position: center;
+    margin: 50px;
+    width: 50%;
+    height: 40vh;
     padding: 20px;
-    margin: 10px;
-    box-sizing: border-box;
-    border: 2px solid yellow; 
-    border-radius: 10px;
-    overflow: hidden;
-    color: white; /* Ensure text inside boxes is white */
+    color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
 }
 
-.box p {
-    margin: 0;
+.Image {
+    background-image: url(./Salon-Safari.jpg); /* Ensure correct image path */
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 40vh;
+    margin-left: 550px;
+    padding: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
 }
 
-.button:hover { 
-    color: rgb(21, 18, 18);
-    width: 54px;
-    border: none; 
-    padding: 4px;
-    cursor: pointer;
-    display: inline-block;
+.head {
+    color: white;
+    font-size: 33px;
+    text-shadow: 2px 2px 4px rgba(239, 234, 234, 0.7); /* Text shadow for better readability */
 }
 
+.head2 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, -0.7); /* Text shadow for better readability */
+}
 
 .footer{
     height:33vh;
     color: #f8f9fc;
-    width: 50%;
-    padding: 13px;
-    margin-top:60px;
-    border-bottom: yellow solid;
-}
+    width: 100%;
+    padding: 23px;
+    margin-top: 50px;
+   }
 
 .footer ul {
     list-style: none;
@@ -130,13 +129,8 @@ a {
 
 }
 
-.snowflakes {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    z-index: 9999;
+.linerule{
+    margin-bottom: 40px;
+    color: yellow;
+    width: 500px;
 }
-
